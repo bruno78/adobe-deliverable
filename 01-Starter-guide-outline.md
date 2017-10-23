@@ -1,53 +1,49 @@
-# 1. An outline for a Getting Started guide
--------------------------------------------
+# 1. An Outline for a Getting Started Guide
 
 
-## CRUD/REST API Getting Starter Guide Outline
+## Outline for: Getting Started Guide for Creative Cloud Storage CRUD/REST APIs
 
 ### Introduction
 
-A brief the description the api explaining its purpose and if it's the case, why it's required.
+The introduction should provided a brief description of the api's purpose, defining why it's helpful and/or necessary.
 
-It also should contain a contents' list for orientation and faster access.
-
-### Contents
-
+### CONTENTS
+The contents should list the sections that are in the body of the document. The list provides general orientation and/or assistance in locating specific information needed.
 * [Contents](#contents)
 * [Requirements](#requirements)
 * [Usage](#usage)
-  * [How to Register Your Application](#how-to-register-your-application)
-  * [Adding The API to The Project](#adding-the-api-to-the-project)
-  * [Initializing The API](#initializing-the-api)
-  * [Making Requests (HTTP)](#making-requests-http)
+  * [Registering Your Application](#registering-your-application)
+  * [Adding APIs to the Project](#adding-apis-to-the-project)
+  * [Initializing the API](#initializing-the-api)
+  * [Making HTTP Requests](#making-http-requests)
 * [Resources](#resources)
 
-### Requirements
+### REQUIREMENTS
 
-Before developers can use the api, it should mention that they must register it.
-The requirements should describe what the developer should be familiar with, along with OS, programming languages, supported browsers and their versions, and server requirements.
+This section should describe what a developer needs to be both familiar with and what is required, including OS, programming languages, supported browsers and their versions, plus server requirements. Note: Before a developer can use an api, the api must be registered, which is the first step under usage below.
 
-### Usage
+### USAGE
 
-Instructions on how to get started with the api with a set of subtopics as it follows:
+This section provides the basic getting-started instructions per the following subtopics:
 
 #### Registering Your Application
 
-This part should either instruct the developers on how to register their application and get api key and client secret values, or a link to _"Registering Your Application"_ section.
+This section instructs the developer on how to register their application, including getting api keys and client secret values, or provides a link to a separate _"Registering Your Application"_ section.
 
-#### Adding The API to The Project
+#### Adding APIs to the Project
 
-Either adding a file to a html document, or creating script. This section should contain instructions on how to add the api to project along with some code example(s).
+This section describes how to add a file to a html document, or create a script. This section should also contain instructions on how to add the api to a project along with code example(s).
 
-#### Initializing The API
+#### Initializing the API
 
-Show to add the API key and/or the client key with code example(s) and possibly what are the success and failure cases.
+This section describes how to add the API key and/or the client key, providing code example(s), plus possibly success and failure cases.
 
-#### Making Requests (HTTP)
+#### Making HTTP Requests
 
-Since dealing with CRUD/REST api, it's necessary to demonstrate how developers can communicate with server when comes to request, create, modify, and delete data with common REST verbs: **GET**, **POST**, **UPDATE** and **DELETE**.
+This section describes how a developer communicates with the server in terms of requests, creation, modifications, and deleting data with common REST verbs: **GET**, **POST**, **UPDATE** and **DELETE**.
 
-Possibly illustrate with code examples.
+Also, this section possibly provides illustrations with code examples.
 
-### Resources
+### RESOURCES
 
-Pointers to a more detailed documentation, github repo and support pages. It might also points to a forum if available.
+This section lists other resources/documents that provide more details on the API, including **github repo**, **developer portal**, **blog**, and **support pages**. It might also point to a **forum** if available.
